@@ -35,4 +35,4 @@ selection_bar.selected = "nav-link selection";
 selection_bar.run()
 ```
 ## Sample:
-![kpi.js](https://wrightanalytics.dev/kpi-js-sample.gif)
+![kpi.js](https://wrightanalytics.dev/menu-selector_sample.gif)
