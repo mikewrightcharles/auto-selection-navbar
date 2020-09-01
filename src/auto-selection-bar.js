@@ -12,14 +12,14 @@ function auto_selection_bar(ids){
     this.run = function(){
         //Building Phase
         get_sizes(); 
-        set_landmarks(shift);
+        document.body.scrollHeight <= 766 ? set_landmarks(0) : set_landmarks(shift);;
         check_area(this.normal, this.selected);
 
         //Event Phase
         window.onresize=()=>{
             if(document.body.scrollHeight !== body_size){
                 get_sizes();
-                set_landmarks(shift);
+                document.body.scrollHeight <= 766 ? set_landmarks(0) : set_landmarks(shift);
                 check_area(this.normal, this.selected);
             }    
         };
